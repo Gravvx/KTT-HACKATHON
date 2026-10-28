@@ -1,0 +1,16 @@
+[
+  {
+    "id": "APP-2026-9812",
+    "serviceId": "healthcare",
+    "serviceName": "Ayushman Bharat Healthcare (PM-JAY)",
+    "applicantName": "Gaurav Sharma",
+    "phone": "9876543210",
+    "aadhaarLast4": "4589",
+    "district": "Central District",
+    "status": "Under Review",
+    "statusColor": "#ffd600",
+    "officialPortalUrl": "https://pmjay.gov.in/",
+    "submittedAt": "2026-10-28T09:30:00.000Z",
+    "estimatedCompletion": "2026-10-30"
+  }
+]

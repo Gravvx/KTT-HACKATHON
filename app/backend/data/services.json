@@ -1,0 +1,197 @@
+{
+  "social_security": {
+    "id": "social_security",
+    "category": "Pensions & Welfare",
+    "badgeColor": "#a3ff00",
+    "officialPortalUrl": "https://nsap.nic.in/",
+    "en": {
+      "name": "Social Security & Pension Schemes",
+      "description": "National Social Assistance Programme (NSAP) including Indira Gandhi National Old Age Pension, Disability Support, and Widow Pensions.",
+      "eligibility": "Senior citizens (60+ years), Persons with 40%+ disability, or BPL household members.",
+      "steps": [
+        "Aadhaar Card copy (Self-attested)",
+        "Income Certificate from Tehsildar/Revenue Officer",
+        "Bank Account Passbook (Linked with Aadhaar)",
+        "Age Proof Certificate (Birth Certificate or Voter ID)"
+      ],
+      "departments": "Ministry of Social Justice & Empowerment",
+      "helpline": "1950",
+      "timeline": "15 to 30 working days"
+    },
+    "hi": {
+      "name": "सामाजिक सुरक्षा और पेंशन योजनाएं",
+      "description": "राष्ट्रीय सामाजिक सहायता कार्यक्रम (NSAP) जिसमें वृद्धावस्था पेंशन, विकलांगता सहायता और विधवा पेंशन शामिल हैं।",
+      "eligibility": "वरिष्ठ नागरिक (60+ वर्ष), 40% से अधिक दिव्यांगता वाले व्यक्ति या बीपीएल परिवार।",
+      "steps": [
+        "आधार कार्ड की प्रति (स्व-सत्यापित)",
+        "तहसीलदार/राजस्व अधिकारी द्वारा जारी आय प्रमाण पत्र",
+        "बैंक खाता पासबुक (आधार से लिंक)",
+        "आयु प्रमाण दस्तावेज (जन्म प्रमाण पत्र या मतदाता पहचान पत्र)"
+      ],
+      "departments": "सामाजिक न्याय और अधिकारिता मंत्रालय",
+      "helpline": "1950",
+      "timeline": "15 से 30 कार्य दिवस"
+    },
+    "mr": {
+      "name": "सामाजिक सुरक्षा आणि पेन्शन योजना",
+      "description": "राष्ट्रीय सामाजिक सहाय्य कार्यक्रम (NSAP) अंतर्गत वृद्धापकाळ पेन्शन, दिव्यांग भत्ता आणि विधवा पेन्शन.",
+      "eligibility": "ज्येष्ठ नागरिक (६०+ वर्षे), ४०% पेक्षा जास्त अपंगत्व असणाऱ्या व्यक्ती किंवा दारिद्र्यरेषेखालील (BPL) कुटुंबे.",
+      "steps": [
+        "आधार कार्ड प्रत (स्वयं-साक्षांकित)",
+        "तहसीलदार/महसूल अधिकारी यांच्याकडून उत्पन्न प्रमाणपत्र",
+        "बँक खाते पासबुक (आधार लिंक केलेले)",
+        "वय पुरावा कागदपत्र"
+      ],
+      "departments": "सामाजिक न्याय आणि अधिकारिता मंत्रालय",
+      "helpline": "1950",
+      "timeline": "१५ ते ३० दिवस"
+    }
+  },
+  "healthcare": {
+    "id": "healthcare",
+    "category": "Healthcare",
+    "badgeColor": "#ff007a",
+    "officialPortalUrl": "https://pmjay.gov.in/",
+    "en": {
+      "name": "Ayushman Bharat Healthcare (PM-JAY)",
+      "description": "Comprehensive cashless medical treatment coverage up to ₹5 Lakhs per family per year across 27,000+ empaneled hospitals nationwide.",
+      "eligibility": "Families identified in SECC 2011 database or eligible ration card holders.",
+      "steps": [
+        "Aadhaar Card of all family members",
+        "Ration Card or Family ID Document",
+        "Mobile Number linked with Aadhaar",
+        "Income / Caste Certificate (if applicable)"
+      ],
+      "departments": "Ministry of Health & Family Welfare / National Health Authority",
+      "helpline": "104 / 14555",
+      "timeline": "Immediate digital card generation"
+    },
+    "hi": {
+      "name": "आयुष्मान भारत स्वास्थ्य योजना (PM-JAY)",
+      "description": "देश भर के 27,000+ अस्पतालों में प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस स्वास्थ्य और चिकित्सा उपचार।",
+      "eligibility": "SECC 2011 डेटाबेस में सूचीबद्ध परिवार या पात्र राशन कार्ड धारक।",
+      "steps": [
+        "परिवार के सभी सदस्यों का आधार कार्ड",
+        "राशन कार्ड या पारिवारिक पहचान पत्र",
+        "आधार से लिंक मोबाइल नंबर",
+        "आय प्रमाण पत्र"
+      ],
+      "departments": "स्वास्थ्य एवं परिवार कल्याण मंत्रालय / राष्ट्रीय स्वास्थ्य प्राधिकरण",
+      "helpline": "104 / 14555",
+      "timeline": "तत्काल डिजिटल कार्ड निर्माण"
+    },
+    "mr": {
+      "name": "आयुष्मान भारत आरोग्य योजना (PM-JAY)",
+      "description": "देशभरातील रुग्णालयांमध्ये प्रति कुटुंब प्रति वर्ष ₹५ लाख पर्यंतचे कॅशलेस वैद्यकीय उपचार.",
+      "eligibility": "SECC 2011 यादीत नोंदणीकृत कुटुंबे किंवा पात्र रेशन कार्डधारक.",
+      "steps": [
+        "कुटुंबातील सर्व सदस्यांचे आधार कार्ड",
+        "रेशन कार्ड किंवा कौटुंबिक ओळखपत्र",
+        "मोबाईल नंबर (आधार लिंक असलेला)",
+        "उत्पन्न प्रमाणपत्र"
+      ],
+      "departments": "आरोग्य आणि कुटुंब कल्याण मंत्रालय",
+      "helpline": "104 / 14555",
+      "timeline": "त्वरित डिजिटल ई-कार्ड"
+    }
+  },
+  "education": {
+    "id": "education",
+    "category": "Education & Grants",
+    "badgeColor": "#00d2ff",
+    "officialPortalUrl": "https://scholarships.gov.in/",
+    "en": {
+      "name": "National Scholarship & Education Portal",
+      "description": "Pre-matric, post-matric, and higher education merit-cum-means scholarships directly deposited into students' bank accounts via DBT.",
+      "eligibility": "School and college students with minimum 50% marks and household income below ₹2.5 Lakhs.",
+      "steps": [
+        "Student Aadhaar Card or Aadhaar Enrollment ID",
+        "Previous Academic Marksheet / Passing Certificate",
+        "Current Bonafide Student Certificate from Institution",
+        "Family Annual Income Certificate",
+        "Student Bank Account Passbook"
+      ],
+      "departments": "Ministry of Education & Social Justice",
+      "helpline": "1800-11-2020 / 0120-6619540",
+      "timeline": "Disbursed per academic cycle"
+    },
+    "hi": {
+      "name": "राष्ट्रीय छात्रवृत्ति और शिक्षा पोर्टल",
+      "description": "प्री-मैट्रिक, पोस्ट-मैट्रिक और उच्च शिक्षा छात्रवृत्ति, जो डीबीटी के माध्यम से सीधे छात्रों के बैंक खातों में जमा होती है।",
+      "eligibility": "न्यूनतम 50% अंक प्राप्त करने वाले छात्र और पारिवारिक आय ₹2.5 लाख से कम।",
+      "steps": [
+        "छात्र का आधार कार्ड",
+        "पिछली कक्षा की मार्कशीट / उत्तीर्ण प्रमाण पत्र",
+        "शिक्षण संस्थान द्वारा जारी बोनाफाइड प्रमाण पत्र",
+        "वार्षिक पारिवारिक आय प्रमाण पत्र",
+        "छात्र का सक्रिय बैंक खाता"
+      ],
+      "departments": "शिक्षा मंत्रालय एवं सामाजिक न्याय",
+      "helpline": "1800-11-2020 / 0120-6619540",
+      "timeline": "शैक्षणिक सत्र अनुसार"
+    },
+    "mr": {
+      "name": "राष्ट्रीय शिष्यवृत्ती व शिक्षण योजना",
+      "description": "शालेय व महाविद्यालयीन विद्यार्थ्यांसाठी शिष्यवृत्ती, थेट बँक खात्यात (DBT) जमा केली जाते.",
+      "eligibility": "किमान ५०% गुण आणि कुटुंबाचे वार्षिक उत्पन्न ₹२.५ लाखांपेक्षा कमी असलेले विद्यार्थी.",
+      "steps": [
+        "विद्यार्थ्यांचे आधार कार्ड",
+        "मागील शैक्षणिक वर्षाची गुणपत्रिका (Marksheet)",
+        "शाळा/कॉलेजचे बोनाफाईड प्रमाणपत्र",
+        "कुटुंबाचे उत्पन्न प्रमाणपत्र",
+        "विद्यार्थ्याचे बँक खाते पासबुक"
+      ],
+      "departments": "शिक्षण मंत्रालय",
+      "helpline": "1800-11-2020",
+      "timeline": "शैक्षणिक सत्रात वितरण"
+    }
+  },
+  "ration_card": {
+    "id": "ration_card",
+    "category": "Food & Civil Supplies",
+    "badgeColor": "#ffd600",
+    "officialPortalUrl": "https://nfsa.gov.in/",
+    "en": {
+      "name": "One Nation One Ration Card (NFSA)",
+      "description": "Subsidized food grain distribution and nationwide ration portability across all Fair Price Shops in India.",
+      "eligibility": "All citizens registered under Antyodaya Anna Yojana (AAY) and Priority Household (PHH).",
+      "steps": [
+        "Head of Household Aadhaar Card",
+        "Current Residential Electricity / Water Bill Proof",
+        "Passport size photographs of all family members",
+        "LPG Connection details"
+      ],
+      "departments": "Department of Food & Public Distribution",
+      "helpline": "1967",
+      "timeline": "7 to 14 working days"
+    },
+    "hi": {
+      "name": "एक राष्ट्र एक राशन कार्ड (NFSA)",
+      "description": "रियायती दर पर खाद्यान्न वितरण और पूरे देश में किसी भी उचित मूल्य की दुकान से राशन प्राप्त करने की सुविधा।",
+      "eligibility": "अंत्योदय अन्न योजना (AAY) और प्राथमिकता वाले परिवार (PHH) के अंतर्गत पात्र नागरिक।",
+      "steps": [
+        "मुखिया और सभी सदस्यों का आधार कार्ड",
+        "निवास प्रमाण पत्र (बिजली या पानी का बिल)",
+        "परिवार के सभी सदस्यों की पासपोर्ट साइज फोटो",
+        "एलपीजी गैस कनेक्शन विवरण"
+      ],
+      "departments": "खाद्य और सार्वजनिक वितरण विभाग",
+      "helpline": "1967",
+      "timeline": "7 से 14 कार्य दिवस"
+    },
+    "mr": {
+      "name": "वन नेशन वन रेशन कार्ड योजना",
+      "description": "अनुदानित अन्नधान्य वाटप आणि देशभरात कोणत्याही रास्त भाव दुकानातून रेशन मिळवण्याची सुविधा.",
+      "eligibility": "अंत्योदय अन्न योजना (AAY) आणि प्राधान्य कुटुंब (PHH) अंतर्गत पात्र नागरिक.",
+      "steps": [
+        "कुटुंबप्रमुखाचे आधार कार्ड",
+        "रहिवासी पुरावा (वीज बिल / पाणी बिल)",
+        "कुटुंबातील सर्व सदस्यांची छायाचित्रे",
+        "गॅस कनेक्शन तपशील"
+      ],
+      "departments": "अन्न व नागरी पुरवठा विभाग",
+      "helpline": "1967",
+      "timeline": "७ ते १४ दिवस"
+    }
+  }
+}

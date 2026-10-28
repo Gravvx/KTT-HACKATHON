@@ -1,0 +1,19 @@
+{
+  "name": "civicconnect",
+  "version": "1.0.0",
+  "description": "CivicConnect - Multilingual Citizen Digital Portal",
+  "scripts": {
+    "start:backend": "cd app/backend && npm start",
+    "start:frontend": "cd app/frontend && npm run dev",
+    "build:frontend": "cd app/frontend && npm run build"
+  },
+  "keywords": [
+    "civic",
+    "portal",
+    "multilingual",
+    "chatbot",
+    "translation"
+  ],
+  "author": "",
+  "license": "ISC"
+}

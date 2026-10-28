@@ -1,0 +1,80 @@
+[
+  {
+    "id": "CIVIC-2026-101",
+    "title": "Severe Potholes and Waterlogging on MG Road Junction",
+    "category": "Roads & Potholes",
+    "description": "Deep potholes spanning over 20 meters near the metro pillar 45. Multiple two-wheelers have skidded and traffic is backed up every evening.",
+    "location": "MG Road, Ward 12, Metro Pillar 45",
+    "city": "Delhi NCR",
+    "lat": 28.5800,
+    "lng": 77.2200,
+    "urgency": "High",
+    "status": "In Progress",
+    "statusColor": "#ffd600",
+    "reportedBy": "Citizen Voice",
+    "phone": "9876543210",
+    "upvotes": 34,
+    "reportedAt": "2026-10-27T08:30:00.000Z",
+    "responsibleDepartment": "Municipal Corporation (MCD) / PWD Road Maintenance Cell",
+    "helpline": "1800-11-0093 / 311 Citizen App",
+    "escalationPortal": "Central Public Grievance Portal (CPGRAMS) & MCD 311 App",
+    "officialPortalUrl": "https://mcdonline.nic.in/",
+    "resolutionSteps": [
+      "Complaint registered in MCD Central Grievance Database",
+      "Field Inspection by Junior Engineer completed on Oct 27",
+      "Bitumen patching tender assigned to zonal contractor",
+      "Target completion within 48 hours"
+    ]
+  },
+  {
+    "id": "CIVIC-2026-102",
+    "title": "Overflowing Garbage Dump and Stray Cattle Nuisance",
+    "category": "Sanitation & Waste",
+    "description": "Garbage has not been collected from the community bin for 4 days. Foul smell and stray animals blocking the residential lane.",
+    "location": "Block C, Sector 15 Market, Near Community Hall",
+    "city": "Pune",
+    "lat": 18.5204,
+    "lng": 73.8567,
+    "urgency": "Critical",
+    "status": "Assigned to Ward Inspector",
+    "statusColor": "#ff007a",
+    "reportedBy": "Resident Welfare Association",
+    "phone": "9812345678",
+    "upvotes": 49,
+    "reportedAt": "2026-10-28T06:15:00.000Z",
+    "responsibleDepartment": "Solid Waste Management Dept, Municipal Corporation",
+    "helpline": "1969 (Swachh Bharat Helpline)",
+    "escalationPortal": "Swachhata-MoHUA App / Municipal Portal",
+    "officialPortalUrl": "https://swachhbharat.mygov.in/",
+    "resolutionSteps": [
+      "Complaint assigned to Sanitary Inspector Ward 08",
+      "Compactor vehicle scheduled for immediate waste lifting",
+      "Sanitization and lime powder dusting to follow"
+    ]
+  },
+  {
+    "id": "CIVIC-2026-103",
+    "title": "Broken Streetlights Plunging Entire Street in Darkness",
+    "category": "Electricity & Streetlights",
+    "description": "5 consecutive streetlights have been non-functional for past 10 days, posing severe safety risk for women and pedestrians at night.",
+    "location": "Lane 4, Gandhi Nagar Colony",
+    "city": "Bengaluru",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "urgency": "High",
+    "status": "Reported",
+    "statusColor": "#00d2ff",
+    "reportedBy": "Ananya S.",
+    "phone": "9988776655",
+    "upvotes": 21,
+    "reportedAt": "2026-10-28T10:00:00.000Z",
+    "responsibleDepartment": "Electricity Distribution Company (DISCOM) / Streetlight Cell",
+    "helpline": "1912 (National Power Helpline)",
+    "escalationPortal": "DISCOM Online Complaint Portal & State Grievance Cell",
+    "officialPortalUrl": "https://www.urjamitra.com/",
+    "resolutionSteps": [
+      "Ticket generated with DISCOM Fault Repair team",
+      "Technician assigned for replacement of LED fixture and line check"
+    ]
+  }
+]
