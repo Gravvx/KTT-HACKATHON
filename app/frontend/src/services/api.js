@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-// Create Axios instance pointing to backend
+// Create Axios instance pointing to backend (/api works in dev via Vite proxy and in prod on Vercel)
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: import.meta.env.VITE_API_URL || '/api',
   headers: {
     'Content-Type': 'application/json',
   },

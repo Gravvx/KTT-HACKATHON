@@ -102,10 +102,14 @@ app.use((err, req, res, next) => {
 
 // Start server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`\n======================================================`);
-  console.log(`⚡ CivicConnect Backend active on: http://localhost:${PORT}`);
-  console.log(`📁 Local Data Storage: app/backend/data/ (JSON files)`);
-  console.log(`🤖 AI Engine: ${process.env.GEMINI_API_KEY ? 'Gemini API' : 'Built-in Civic AI Resolver'}`);
-  console.log(`======================================================\n`);
-});
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log(`\n======================================================`);
+    console.log(`⚡ CivicConnect Backend active on: http://localhost:${PORT}`);
+    console.log(`📁 Local Data Storage: app/backend/data/ (JSON files)`);
+    console.log(`🤖 AI Engine: ${process.env.GEMINI_API_KEY ? 'Gemini API' : 'Built-in Civic AI Resolver'}`);
+    console.log(`======================================================\n`);
+  });
+}
+
+module.exports = app;
