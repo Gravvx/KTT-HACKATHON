@@ -37,6 +37,7 @@ router.get('/', async (req, res) => {
           id: key,
           category: item.category || 'General',
           badgeColor: item.badgeColor || '#a3ff00',
+          officialPortalUrl: item.officialPortalUrl || item.officialPortal || 'https://services.india.gov.in',
           ...data,
         };
       })

@@ -134,8 +134,10 @@ function TranslatePage() {
                 <span>📝</span> Source Input
               </span>
               <div className="flex items-center gap-1">
-                <span className="text-[11px] text-zinc-500 font-medium">From:</span>
+                <label htmlFor="source-lang-select" className="text-[11px] text-zinc-500 font-medium">From:</label>
                 <select
+                  id="source-lang-select"
+                  aria-label="Select source language"
                   value={sourceLang}
                   onChange={(e) => setSourceLang(e.target.value)}
                   className="text-xs font-bold bg-zinc-100 border-2 border-black px-2 py-1 outline-none uppercase cursor-pointer"
@@ -150,7 +152,10 @@ function TranslatePage() {
               </div>
             </div>
 
+            <label htmlFor="translation-input-textarea" className="sr-only">Source query text</label>
             <textarea
+              id="translation-input-textarea"
+              aria-label="Source text to translate"
               rows={6}
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
@@ -162,6 +167,7 @@ function TranslatePage() {
           <div className="p-4 bg-zinc-50 border-t-2 border-black flex items-center justify-between">
             <button
               onClick={handleVoiceInput}
+              aria-label={isListening ? 'Stop microphone dictation' : 'Tap to speak via microphone'}
               className={`btn-neo px-4 py-2 text-xs font-extrabold uppercase tracking-wider border-2 border-black flex items-center gap-2 cursor-pointer ${
                 isListening
                   ? 'bg-[#ff007a] text-white mic-active'

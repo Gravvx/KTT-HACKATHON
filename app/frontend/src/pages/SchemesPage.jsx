@@ -135,9 +135,12 @@ function SchemesPage() {
         {/* Search */}
         <div className="w-full md:w-72">
           <div className="flex items-center bg-white border-2 border-black shadow-[2px_2px_0px_#000000]">
-            <span className="px-3 text-sm">🔍</span>
+            <span aria-hidden="true" className="px-3 text-sm">🔍</span>
+            <label htmlFor="scheme-search-input" className="sr-only">Search government schemes</label>
             <input
+              id="scheme-search-input"
               type="text"
+              aria-label="Search government welfare schemes"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search scheme name..."

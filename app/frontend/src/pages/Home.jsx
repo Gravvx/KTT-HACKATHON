@@ -442,10 +442,11 @@ const Home = () => {
 
                 <div className="space-y-3">
                   <div>
-                    <label className="block text-xs font-bold uppercase text-black mb-1">
+                    <label htmlFor="issue-category-select" className="block text-xs font-bold uppercase text-black mb-1">
                       Category *
                     </label>
                     <select
+                      id="issue-category-select"
                       value={reportForm.category}
                       onChange={(e) => setReportForm({ ...reportForm, category: e.target.value })}
                       className="w-full border-2 border-black p-2.5 text-xs font-bold outline-none bg-zinc-50 uppercase cursor-pointer"
@@ -458,10 +459,11 @@ const Home = () => {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold uppercase text-black mb-1">
+                    <label htmlFor="issue-title-input" className="block text-xs font-bold uppercase text-black mb-1">
                       Issue Title / Summary *
                     </label>
                     <input
+                      id="issue-title-input"
                       type="text"
                       required
                       value={reportForm.title}
@@ -472,10 +474,11 @@ const Home = () => {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-bold uppercase text-black mb-1">
+                    <label htmlFor="issue-desc-input" className="block text-xs font-bold uppercase text-black mb-1">
                       Detailed Description *
                     </label>
                     <textarea
+                      id="issue-desc-input"
                       rows={2}
                       required
                       value={reportForm.description}
@@ -511,10 +514,11 @@ const Home = () => {
 
                   <div className="grid grid-cols-2 gap-3">
                     <div>
-                      <label className="block text-xs font-bold uppercase text-black mb-1">
+                      <label htmlFor="issue-location-input" className="block text-xs font-bold uppercase text-black mb-1">
                         Location / Landmark Text *
                       </label>
                       <input
+                        id="issue-location-input"
                         type="text"
                         required
                         value={reportForm.location}
@@ -524,10 +528,11 @@ const Home = () => {
                       />
                     </div>
                     <div>
-                      <label className="block text-xs font-bold uppercase text-black mb-1">
+                      <label htmlFor="issue-city-input" className="block text-xs font-bold uppercase text-black mb-1">
                         City / District
                       </label>
                       <input
+                        id="issue-city-input"
                         type="text"
                         value={reportForm.city}
                         onChange={(e) => setReportForm({ ...reportForm, city: e.target.value })}

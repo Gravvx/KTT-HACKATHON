@@ -119,6 +119,8 @@ router.post('/report', (req, res) => {
       phone: phone || 'Anonymous',
       status: 'Reported',
       statusColor: '#00d2ff',
+      department: deptInfo.responsibleDepartment,
+      officialPortalUrl: deptInfo.escalationPortal || 'https://pgportal.gov.in',
       ...deptInfo,
     });
 

@@ -226,5 +226,149 @@
     "botResponse": "I understand you're experiencing a \"no supply\" issue, which most commonly refers to a power cut or electricity outage. This can be incredibly disruptive and frustrating, especially in today's world where so much depends on a consistent power supply. I'm here to help you navigate the process of getting this resolved.\n\nTo assist you more effectively, could you please provide a little more information? Specifically:\n\n1.  **Your approximate location (City/District and State):** This helps me identify the correct electricity distribution company (DISCOM) responsible for your area.\n2.  **How long has the power been out?**\n3.  **Is this a widespread outage in your locality, or does it seem to be affecting only your home/building?**\n\nIn the meantime, here's a general overview of how to address a power supply issue:\n\n1.  **🔍 Direct Problem Analysis & Context:**\n    You are likely experiencing an electricity outage, which could be due to a local fault, scheduled maintenance, or a wider grid issue. It's important to report it promptly to ensure the distribution company is aware and can dispatch a team for restoration.\n\n2.  **🏛️ Exact Responsible Authority:**\n    The **Electricity Distribution Company (DISCOM)** specific to your region is the responsible authority. In India, these are often state-owned or private entities like BSES, Tata Power, Adani Electricity, MSEDCL, UPPCL, BESCOM, TANGEDCO, etc. Their names vary by city and state.\n\n3.  **📱 Official Escalation Portals & Apps:**\n    Many DISCOMs have their own dedicated mobile apps and online portals for reporting outages. You can usually find these by searching for your DISCOM's name + \"complaint app\" or \"customer portal.\"\n    *   **State-specific CM Helplines:** Many states have Chief Minister's Helplines or integrated grievance portals (e.g., UP Jan Sunwai, Maharashtra Aaple Sarkar) where you can lodge complaints, which are then forwarded to the relevant department.\n    *   **CPGRAMS (pgportal.gov.in):** For central government-related grievances, though electricity is primarily state-controlled, this can sometimes be used for broader issues or if state mechanisms fail.\n\n4.  **📞 Direct Official Helplines:**\n    *   **National Electricity Helpline (General): 1912** (This is a common number, but it's best to use your local DISCOM's specific helpline for faster service).\n    *   **Look for your local DISCOM's specific helpline number.** This number is usually printed on your electricity bill, displayed on their website, or can be found with a quick online search for \"[Your City/District] Electricity Complaint Number.\"\n\nOnce you provide your location, I can help you pinpoint the exact DISCOM and their specific contact details. If you'd like, I can also provide a ready-to-use complaint template or action plan once we have more specific information.",
     "language": "en",
     "provider": "gemini_2.5_flash"
+  },
+  {
+    "id": "msg_1793190334687",
+    "timestamp": "2026-10-28T12:25:34.687Z",
+    "userMessage": "There is a severe water pipeline leakage on MG Road.",
+    "botResponse": "🚧 Road Potholes & Infrastructure Resolution Guide:\n\n1. Responsible Authorities:\n• City Municipal Corporation (Engineering Wing) & State Public Works Department (PWD).\n\n2. How to File an Official Grievance:\n• Municipal 311 Mobile App (Upload photo with auto-detected GPS coordinates).\n• Central Public Grievance Redress and Monitoring System (CPGRAMS) at pgportal.gov.in.\n\n3. Official Helplines:\n• Citizen Civic Helpline: 311\n• Chief Minister Public Grievance Cell: 1076 / 1800-11-0093\n\n4. Step-by-Step Escalation Plan:\n• Take 2 high-resolution photos showing the pothole depth and landmark.\n• File complaint under \"Roads & Infrastructure Repair\".\n• Note down the Grievance Docket Number. Municipal citizen charters mandate road patching within 48 to 72 hours.\n• If unresolved, file an appeal to the Zonal Executive Engineer citing safety hazards under Section 133 CrPC.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190384539",
+    "timestamp": "2026-10-28T12:26:24.539Z",
+    "userMessage": "सड़क पर बहुत बड़ा गड्ढा है, शिकायत कहाँ करें?",
+    "botResponse": "नमस्ते! सड़क पर गड्ढे होना न केवल आवागमन में बाधा डालते हैं, बल्कि यह दोपहिया और चार पहिया वाहन चालकों के लिए जानलेवा दुर्घटनाओं का कारण भी बन सकते हैं। इस समस्या का समाधान जल्द से जल्द होना आवश्यक है।\n\nआपकी सुविधा के लिए पूरी प्रक्रिया नीचे स्पष्ट रूप से दी जा रही है:\n\n---\n\n### 1. 🔍 समस्या का त्वरित विश्लेषण (Problem Analysis)\nसड़क की मरम्मत किस विभाग द्वारा की जाएगी, यह इस बात पर निर्भर करता है कि सड़क का प्रकार क्या है:\n* **कॉलोनी या शहर की आंतरिक सड़क:** नगर निगम / नगरपालिका (Municipal Corporation / Municipality).\n* **शहर की मुख्य सड़कें / राज्य राजमार्ग:** राज्य लोक निर्माण विभाग (State PWD).\n* **राष्ट्रीय राजमार्ग (National Highway):** भारतीय राष्ट्रीय राजमार्ग प्राधिकरण (NHAI).\n* **ग्रामीण क्षेत्र की सड़क:** ग्राम पंचायत या प्रधानमंत्री ग्राम सड़क योजना (PMGSY).\n\n---\n\n### 2. 🏛️ संबंधित जिम्मेदार विभाग (Responsible Authority)\n* **शहरी क्षेत्रों में:** आपके स्थानीय नगर निगम का इंजीनियरिंग विभाग या PWD विंग।\n* **हाईवे पर:** NHAI का क्षेत्रीय प्रोजेक्ट डायरेक्टर कार्यालय।\n* **ग्रामीण क्षेत्रों में:** खंड विकास अधिकारी (BDO) या जिला ग्रामीण विकास एजेंसी (DRDA)।\n\n---\n\n### 3. 📱 शिकायत दर्ज करने के लिए आधिकारिक पोर्टल और ऐप्स (Apps & Portals)\n* **नगर निगम / स्वच्छता पोर्टल (Swachhata-MoHUA App):** भारत सरकार का यह ऐप शहरी इलाकों में सड़क और गंदगी से जुड़ी शिकायतों के लिए बहुत प्रभावी है।\n* **311 सिटी ऐप:** अधिकांश बड़े शहरों (जैसे दिल्ली, मुंबई, लखनऊ, इंदौर आदि) के अपने 311 मोबाइल ऐप हैं।\n* **मेरी सड़क ऐप (Meri Sadak App):** यदि सड़क ग्रामीण क्षेत्र की (PMGSY के अंतर्गत) है, तो इस ऐप पर फोटो खींचकर शिकायत दर्ज की जा सकती है।\n* **सुखद यात्रा ऐप / राजमार्ग यात्रा (Rajmarg Yatra App):** यदि गड्ढा किसी नेशनल हाईवे पर है।\n* **राज्य जनसुनवाई / सीएम हेल्पलाइन पोर्टल:** (जैसे UP में `jansunwai.up.nic.in`, MP में `cmhelpline.mp.gov.in`, बिहार में `lokshikayat.bihar.gov.in`)।\n* **CPGRAMS:** यदि राज्य स्तर पर सुनवाई न हो, तो केंद्र सरकार के पोर्टल `pgportal.gov.in` पर शिकायत दर्ज करें।\n\n---\n\n### 4. 📞 सीधे हेल्पलाइन नंबर (Official Helplines)\n* **राष्ट्रीय राजमार्ग हेल्पलाइन (NHAI):** **1033** (टोल-फ्री, 24x7 सेवा)\n* **नगर निगम सामान्य नागरिक सेवा:** **311** (जहाँ उपलब्ध हो)\n* **राज्य मुख्यमंत्री हेल्पलाइन (CM Helpline):** \n  * उत्तर प्रदेश: **1076**\n  * मध्य प्रदेश / राजस्थान: **181**\n  * दिल्ली: **1031** या **1800-11-0093** (PWD)\n* **आपातकालीन स्थिति (दुर्घटना की आशंका पर):** **112** (पुलिस कंट्रोल रूम को तुरंत सूचित करें)\n\n---\n\n### 5. 📝 शिकायत के लिए तैयार प्रारूप (Complaint Template)\n\nयदि आप ऑनलाइन पोर्टल पर लिख रहे हैं या लिखित आवेदन दे रहे हैं, तो इस प्रारूप का उपयोग करें:\n\n> **सेवा में,**  \n> मुख्य अभियंता / वार्ड अधिकारी,  \n> [नगर निगम / लोक निर्माण विभाग का नाम],  \n> [शहर/क्षेत्र का नाम]  \n> \n> **विषय: [सड़क/इलाके का नाम] पर खतरनाक गड्ढे की मरम्मत के संबंध में शिकायत।**  \n> \n> **महोदय/महोदया,**  \n> \n> मैं [आपका नाम], [अपने मोहल्ले/क्षेत्र का नाम] का निवासी हूँ। मैं आपका ध्यान [सड़क का पूरा नाम, लैंडमार्क या निकटतम दुकान/मकान नंबर] पर मौजूद एक बड़े और गहरे गड्ढे की ओर आकर्षित करना चाहता हूँ।  \n> \n> इस गड्ढे के कारण यहाँ आए दिन दुर्घटनाएं हो रही हैं और बारिश के समय पानी भर जाने से यह गड्ढा दिखाई नहीं देता, जिससे कभी भी कोई गंभीर जानलेवा हादसा हो सकता है।  \n> \n> अतः आपसे विनम्र निवेदन है कि जनहित और सुरक्षा को ध्यान में रखते हुए इस सड़क की मरम्मत यथाशीघ्र करवाई जाए।  \n> \n> (सड़क और गड्ढे की जियो-टैग फोटो संलग्न है)  \n> \n> **धन्यवाद,**  \n> **नाम:** [आपका नाम]  \n> **पता:** [आपका पता]  \n> **मोबाइल नंबर:** [आपका फोन नंबर]  \n> **दिनांक:** [आज की तारीख]  \n\n---\n\n**सुझाव:** शिकायत दर्ज करते समय गड्ढे की स्पष्ट तस्वीर ज़रूर खींचें (यदि संभव हो तो फोन की लोकेशन/GPS ऑन रखकर फोटो लें)। \n\nयदि आप मुझे अपने **शहर, राज्य और सड़क का नाम (कॉलोनी की सड़क या हाईवे)** बताएँगे, तो मैं आपको ठीक उसी संबंधित विभाग का ऑनलाइन लिंक या फोन नंबर तुरंत उपलब्ध करा सकता हूँ।",
+    "language": "hi",
+    "provider": "gemini_2.5_flash"
+  },
+  {
+    "id": "msg_1793190386811",
+    "timestamp": "2026-10-28T12:26:26.811Z",
+    "userMessage": "Who is the municipal commissioner or helpline for my area?",
+    "botResponse": "🇮🇳 CivicConnect Citizen Grievance Assistant:\n\nI can guide you on resolving civic issues (road potholes, uncollected garbage, water pipeline leaks, power outages, non-functional streetlights, sewage blockage) and applying for government welfare schemes.\n\nPlease describe your civic issue (e.g., \"pothole on my road\", \"sewage overflowing\", \"how to get pension\"). I will identify the exact municipal department, provide the official 24x7 helpline, and give you step-by-step escalation procedures.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190478228",
+    "timestamp": "2026-10-28T12:27:58.228Z",
+    "userMessage": "There is a severe water pipeline leakage on MG Road.",
+    "botResponse": "🚧 Road Potholes & Infrastructure Resolution Guide:\n\n1. Responsible Authorities:\n• City Municipal Corporation (Engineering Wing) & State Public Works Department (PWD).\n\n2. How to File an Official Grievance:\n• Municipal 311 Mobile App (Upload photo with auto-detected GPS coordinates).\n• Central Public Grievance Redress and Monitoring System (CPGRAMS) at pgportal.gov.in.\n\n3. Official Helplines:\n• Citizen Civic Helpline: 311\n• Chief Minister Public Grievance Cell: 1076 / 1800-11-0093\n\n4. Step-by-Step Escalation Plan:\n• Take 2 high-resolution photos showing the pothole depth and landmark.\n• File complaint under \"Roads & Infrastructure Repair\".\n• Note down the Grievance Docket Number. Municipal citizen charters mandate road patching within 48 to 72 hours.\n• If unresolved, file an appeal to the Zonal Executive Engineer citing safety hazards under Section 133 CrPC.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190478264",
+    "timestamp": "2026-10-28T12:27:58.264Z",
+    "userMessage": "सड़क पर बहुत बड़ा गड्ढा है, शिकायत कहाँ करें?",
+    "botResponse": "🚧 सड़क और गड्ढों (Potholes) की शिकायत निवारण समाधान:\n\n1. जिम्मेदार विभाग: \n• लोक निर्माण विभाग (PWD) और नगर निगम का रोड मेंटेनेंस सेल।\n\n2. तुरंत शिकायत दर्ज करने के माध्यम:\n• MCD 311 मोबाइल ऐप या आपके शहर का म्युनिसिपल 311 ऐप (फोटो और GPS लोकेशन के साथ)।\n• राष्ट्रीय जन शिकायत पोर्टल (CPGRAMS): pgportal.gov.in पर लॉगिन करके PWD विभाग चुनें।\n\n3. आधिकारिक हेल्पलाइन:\n• सिटी टोल-फ्री हेल्पलाइन: 1800-11-0093 या 311\n• सीएम हेल्पलाइन नंबर: 1076 (विभिन्न राज्यों में उपलब्ध)\n\n4. त्वरित कार्रवाई के चरण:\n• गड्ढे की 2 स्पष्ट तस्वीरें लें जिसमें सड़क का लैंडमार्क दिखे।\n• शिकायत में वार्ड नंबर और नजदीकी खंभा/दुकान का पता लिखें।\n• नगर निगम के सिटिजन चार्टर के अनुसार 48 से 72 घंटों में गड्ढों की पैचिंग का नियम है। यदि समाधान न हो तो ज़ोनल एक्जीक्यूटिव इंजीनियर (EE) को CPGRAMS पर एस्केलेट करें।",
+    "language": "hi",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190478283",
+    "timestamp": "2026-10-28T12:27:58.283Z",
+    "userMessage": "Who is the municipal commissioner or helpline for my area?",
+    "botResponse": "🇮🇳 CivicConnect Citizen Grievance Assistant:\n\nI can guide you on resolving civic issues (road potholes, uncollected garbage, water pipeline leaks, power outages, non-functional streetlights, sewage blockage) and applying for government welfare schemes.\n\nPlease describe your civic issue (e.g., \"pothole on my road\", \"sewage overflowing\", \"how to get pension\"). I will identify the exact municipal department, provide the official 24x7 helpline, and give you step-by-step escalation procedures.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190540430",
+    "timestamp": "2026-10-28T12:29:00.430Z",
+    "userMessage": "There is a severe water pipeline leakage on MG Road.",
+    "botResponse": "🚧 Road Potholes & Infrastructure Resolution Guide:\n\n1. Responsible Authorities:\n• City Municipal Corporation (Engineering Wing) & State Public Works Department (PWD).\n\n2. How to File an Official Grievance:\n• Municipal 311 Mobile App (Upload photo with auto-detected GPS coordinates).\n• Central Public Grievance Redress and Monitoring System (CPGRAMS) at pgportal.gov.in.\n\n3. Official Helplines:\n• Citizen Civic Helpline: 311\n• Chief Minister Public Grievance Cell: 1076 / 1800-11-0093\n\n4. Step-by-Step Escalation Plan:\n• Take 2 high-resolution photos showing the pothole depth and landmark.\n• File complaint under \"Roads & Infrastructure Repair\".\n• Note down the Grievance Docket Number. Municipal citizen charters mandate road patching within 48 to 72 hours.\n• If unresolved, file an appeal to the Zonal Executive Engineer citing safety hazards under Section 133 CrPC.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190540468",
+    "timestamp": "2026-10-28T12:29:00.468Z",
+    "userMessage": "सड़क पर बहुत बड़ा गड्ढा है, शिकायत कहाँ करें?",
+    "botResponse": "🚧 सड़क और गड्ढों (Potholes) की शिकायत निवारण समाधान:\n\n1. जिम्मेदार विभाग: \n• लोक निर्माण विभाग (PWD) और नगर निगम का रोड मेंटेनेंस सेल।\n\n2. तुरंत शिकायत दर्ज करने के माध्यम:\n• MCD 311 मोबाइल ऐप या आपके शहर का म्युनिसिपल 311 ऐप (फोटो और GPS लोकेशन के साथ)।\n• राष्ट्रीय जन शिकायत पोर्टल (CPGRAMS): pgportal.gov.in पर लॉगिन करके PWD विभाग चुनें।\n\n3. आधिकारिक हेल्पलाइन:\n• सिटी टोल-फ्री हेल्पलाइन: 1800-11-0093 या 311\n• सीएम हेल्पलाइन नंबर: 1076 (विभिन्न राज्यों में उपलब्ध)\n\n4. त्वरित कार्रवाई के चरण:\n• गड्ढे की 2 स्पष्ट तस्वीरें लें जिसमें सड़क का लैंडमार्क दिखे।\n• शिकायत में वार्ड नंबर और नजदीकी खंभा/दुकान का पता लिखें।\n• नगर निगम के सिटिजन चार्टर के अनुसार 48 से 72 घंटों में गड्ढों की पैचिंग का नियम है। यदि समाधान न हो तो ज़ोनल एक्जीक्यूटिव इंजीनियर (EE) को CPGRAMS पर एस्केलेट करें।",
+    "language": "hi",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190540483",
+    "timestamp": "2026-10-28T12:29:00.483Z",
+    "userMessage": "Who is the municipal commissioner or helpline for my area?",
+    "botResponse": "🇮🇳 CivicConnect Citizen Grievance Assistant:\n\nI can guide you on resolving civic issues (road potholes, uncollected garbage, water pipeline leaks, power outages, non-functional streetlights, sewage blockage) and applying for government welfare schemes.\n\nPlease describe your civic issue (e.g., \"pothole on my road\", \"sewage overflowing\", \"how to get pension\"). I will identify the exact municipal department, provide the official 24x7 helpline, and give you step-by-step escalation procedures.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190555138",
+    "timestamp": "2026-10-28T12:29:15.138Z",
+    "userMessage": "There is a severe water pipeline leakage on MG Road.",
+    "botResponse": "🚧 Road Potholes & Infrastructure Resolution Guide:\n\n1. Responsible Authorities:\n• City Municipal Corporation (Engineering Wing) & State Public Works Department (PWD).\n\n2. How to File an Official Grievance:\n• Municipal 311 Mobile App (Upload photo with auto-detected GPS coordinates).\n• Central Public Grievance Redress and Monitoring System (CPGRAMS) at pgportal.gov.in.\n\n3. Official Helplines:\n• Citizen Civic Helpline: 311\n• Chief Minister Public Grievance Cell: 1076 / 1800-11-0093\n\n4. Step-by-Step Escalation Plan:\n• Take 2 high-resolution photos showing the pothole depth and landmark.\n• File complaint under \"Roads & Infrastructure Repair\".\n• Note down the Grievance Docket Number. Municipal citizen charters mandate road patching within 48 to 72 hours.\n• If unresolved, file an appeal to the Zonal Executive Engineer citing safety hazards under Section 133 CrPC.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190555177",
+    "timestamp": "2026-10-28T12:29:15.177Z",
+    "userMessage": "सड़क पर बहुत बड़ा गड्ढा है, शिकायत कहाँ करें?",
+    "botResponse": "🚧 सड़क और गड्ढों (Potholes) की शिकायत निवारण समाधान:\n\n1. जिम्मेदार विभाग: \n• लोक निर्माण विभाग (PWD) और नगर निगम का रोड मेंटेनेंस सेल।\n\n2. तुरंत शिकायत दर्ज करने के माध्यम:\n• MCD 311 मोबाइल ऐप या आपके शहर का म्युनिसिपल 311 ऐप (फोटो और GPS लोकेशन के साथ)।\n• राष्ट्रीय जन शिकायत पोर्टल (CPGRAMS): pgportal.gov.in पर लॉगिन करके PWD विभाग चुनें।\n\n3. आधिकारिक हेल्पलाइन:\n• सिटी टोल-फ्री हेल्पलाइन: 1800-11-0093 या 311\n• सीएम हेल्पलाइन नंबर: 1076 (विभिन्न राज्यों में उपलब्ध)\n\n4. त्वरित कार्रवाई के चरण:\n• गड्ढे की 2 स्पष्ट तस्वीरें लें जिसमें सड़क का लैंडमार्क दिखे।\n• शिकायत में वार्ड नंबर और नजदीकी खंभा/दुकान का पता लिखें।\n• नगर निगम के सिटिजन चार्टर के अनुसार 48 से 72 घंटों में गड्ढों की पैचिंग का नियम है। यदि समाधान न हो तो ज़ोनल एक्जीक्यूटिव इंजीनियर (EE) को CPGRAMS पर एस्केलेट करें।",
+    "language": "hi",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190555198",
+    "timestamp": "2026-10-28T12:29:15.198Z",
+    "userMessage": "Who is the municipal commissioner or helpline for my area?",
+    "botResponse": "🇮🇳 CivicConnect Citizen Grievance Assistant:\n\nI can guide you on resolving civic issues (road potholes, uncollected garbage, water pipeline leaks, power outages, non-functional streetlights, sewage blockage) and applying for government welfare schemes.\n\nPlease describe your civic issue (e.g., \"pothole on my road\", \"sewage overflowing\", \"how to get pension\"). I will identify the exact municipal department, provide the official 24x7 helpline, and give you step-by-step escalation procedures.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190808901",
+    "timestamp": "2026-10-28T12:33:28.901Z",
+    "userMessage": "There is a severe water pipeline leakage on MG Road.",
+    "botResponse": "🚧 Road Potholes & Infrastructure Resolution Guide:\n\n1. Responsible Authorities:\n• City Municipal Corporation (Engineering Wing) & State Public Works Department (PWD).\n\n2. How to File an Official Grievance:\n• Municipal 311 Mobile App (Upload photo with auto-detected GPS coordinates).\n• Central Public Grievance Redress and Monitoring System (CPGRAMS) at pgportal.gov.in.\n\n3. Official Helplines:\n• Citizen Civic Helpline: 311\n• Chief Minister Public Grievance Cell: 1076 / 1800-11-0093\n\n4. Step-by-Step Escalation Plan:\n• Take 2 high-resolution photos showing the pothole depth and landmark.\n• File complaint under \"Roads & Infrastructure Repair\".\n• Note down the Grievance Docket Number. Municipal citizen charters mandate road patching within 48 to 72 hours.\n• If unresolved, file an appeal to the Zonal Executive Engineer citing safety hazards under Section 133 CrPC.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190808946",
+    "timestamp": "2026-10-28T12:33:28.946Z",
+    "userMessage": "सड़क पर बहुत बड़ा गड्ढा है, शिकायत कहाँ करें?",
+    "botResponse": "🚧 सड़क और गड्ढों (Potholes) की शिकायत निवारण समाधान:\n\n1. जिम्मेदार विभाग: \n• लोक निर्माण विभाग (PWD) और नगर निगम का रोड मेंटेनेंस सेल।\n\n2. तुरंत शिकायत दर्ज करने के माध्यम:\n• MCD 311 मोबाइल ऐप या आपके शहर का म्युनिसिपल 311 ऐप (फोटो और GPS लोकेशन के साथ)।\n• राष्ट्रीय जन शिकायत पोर्टल (CPGRAMS): pgportal.gov.in पर लॉगिन करके PWD विभाग चुनें।\n\n3. आधिकारिक हेल्पलाइन:\n• सिटी टोल-फ्री हेल्पलाइन: 1800-11-0093 या 311\n• सीएम हेल्पलाइन नंबर: 1076 (विभिन्न राज्यों में उपलब्ध)\n\n4. त्वरित कार्रवाई के चरण:\n• गड्ढे की 2 स्पष्ट तस्वीरें लें जिसमें सड़क का लैंडमार्क दिखे।\n• शिकायत में वार्ड नंबर और नजदीकी खंभा/दुकान का पता लिखें।\n• नगर निगम के सिटिजन चार्टर के अनुसार 48 से 72 घंटों में गड्ढों की पैचिंग का नियम है। यदि समाधान न हो तो ज़ोनल एक्जीक्यूटिव इंजीनियर (EE) को CPGRAMS पर एस्केलेट करें।",
+    "language": "hi",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190808963",
+    "timestamp": "2026-10-28T12:33:28.963Z",
+    "userMessage": "Who is the municipal commissioner or helpline for my area?",
+    "botResponse": "🇮🇳 CivicConnect Citizen Grievance Assistant:\n\nI can guide you on resolving civic issues (road potholes, uncollected garbage, water pipeline leaks, power outages, non-functional streetlights, sewage blockage) and applying for government welfare schemes.\n\nPlease describe your civic issue (e.g., \"pothole on my road\", \"sewage overflowing\", \"how to get pension\"). I will identify the exact municipal department, provide the official 24x7 helpline, and give you step-by-step escalation procedures.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190824640",
+    "timestamp": "2026-10-28T12:33:44.640Z",
+    "userMessage": "There is a severe water pipeline leakage on MG Road.",
+    "botResponse": "🚧 Road Potholes & Infrastructure Resolution Guide:\n\n1. Responsible Authorities:\n• City Municipal Corporation (Engineering Wing) & State Public Works Department (PWD).\n\n2. How to File an Official Grievance:\n• Municipal 311 Mobile App (Upload photo with auto-detected GPS coordinates).\n• Central Public Grievance Redress and Monitoring System (CPGRAMS) at pgportal.gov.in.\n\n3. Official Helplines:\n• Citizen Civic Helpline: 311\n• Chief Minister Public Grievance Cell: 1076 / 1800-11-0093\n\n4. Step-by-Step Escalation Plan:\n• Take 2 high-resolution photos showing the pothole depth and landmark.\n• File complaint under \"Roads & Infrastructure Repair\".\n• Note down the Grievance Docket Number. Municipal citizen charters mandate road patching within 48 to 72 hours.\n• If unresolved, file an appeal to the Zonal Executive Engineer citing safety hazards under Section 133 CrPC.",
+    "language": "en",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190824672",
+    "timestamp": "2026-10-28T12:33:44.672Z",
+    "userMessage": "सड़क पर बहुत बड़ा गड्ढा है, शिकायत कहाँ करें?",
+    "botResponse": "🚧 सड़क और गड्ढों (Potholes) की शिकायत निवारण समाधान:\n\n1. जिम्मेदार विभाग: \n• लोक निर्माण विभाग (PWD) और नगर निगम का रोड मेंटेनेंस सेल।\n\n2. तुरंत शिकायत दर्ज करने के माध्यम:\n• MCD 311 मोबाइल ऐप या आपके शहर का म्युनिसिपल 311 ऐप (फोटो और GPS लोकेशन के साथ)।\n• राष्ट्रीय जन शिकायत पोर्टल (CPGRAMS): pgportal.gov.in पर लॉगिन करके PWD विभाग चुनें।\n\n3. आधिकारिक हेल्पलाइन:\n• सिटी टोल-फ्री हेल्पलाइन: 1800-11-0093 या 311\n• सीएम हेल्पलाइन नंबर: 1076 (विभिन्न राज्यों में उपलब्ध)\n\n4. त्वरित कार्रवाई के चरण:\n• गड्ढे की 2 स्पष्ट तस्वीरें लें जिसमें सड़क का लैंडमार्क दिखे।\n• शिकायत में वार्ड नंबर और नजदीकी खंभा/दुकान का पता लिखें।\n• नगर निगम के सिटिजन चार्टर के अनुसार 48 से 72 घंटों में गड्ढों की पैचिंग का नियम है। यदि समाधान न हो तो ज़ोनल एक्जीक्यूटिव इंजीनियर (EE) को CPGRAMS पर एस्केलेट करें।",
+    "language": "hi",
+    "provider": "local_civic_engine"
+  },
+  {
+    "id": "msg_1793190824686",
+    "timestamp": "2026-10-28T12:33:44.686Z",
+    "userMessage": "Who is the municipal commissioner or helpline for my area?",
+    "botResponse": "🇮🇳 CivicConnect Citizen Grievance Assistant:\n\nI can guide you on resolving civic issues (road potholes, uncollected garbage, water pipeline leaks, power outages, non-functional streetlights, sewage blockage) and applying for government welfare schemes.\n\nPlease describe your civic issue (e.g., \"pothole on my road\", \"sewage overflowing\", \"how to get pension\"). I will identify the exact municipal department, provide the official 24x7 helpline, and give you step-by-step escalation procedures.",
+    "language": "en",
+    "provider": "local_civic_engine"
   }
 ]

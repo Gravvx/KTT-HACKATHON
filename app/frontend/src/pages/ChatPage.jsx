@@ -332,8 +332,14 @@ function ChatPage() {
           </div>
         )}
 
-        {/* Conversation Stream */}
-        <div className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-4 bg-[#f8f9fa]">
+        {/* Conversation Stream with ARIA Live for Screen Reader Accessibility */}
+        <div
+          role="log"
+          aria-live="polite"
+          aria-atomic="false"
+          aria-label="Conversation with Civic AI"
+          className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-4 bg-[#f8f9fa]"
+        >
           {messages.map((msg, index) => {
             const isUser = msg.sender === 'user';
             const isPlayingThis = playingIndex === index;
@@ -423,6 +429,13 @@ function ChatPage() {
               type="button"
               onClick={handleToggleMic}
               disabled={loading}
+              aria-label={
+                isAudioRecording
+                  ? 'Stop voice recording'
+                  : isListening
+                  ? 'Stop speech recognition'
+                  : 'Start speech-to-text dictation via microphone'
+              }
               title={
                 isAudioRecording
                   ? 'Click to stop recording and send'
@@ -438,11 +451,14 @@ function ChatPage() {
                   : 'bg-[#a3ff00] hover:bg-[#8ee000] text-black'
               }`}
             >
-              <span className="text-base">{isAudioRecording ? '⏹️' : '🎙️'}</span>
+              <span aria-hidden="true" className="text-base">{isAudioRecording ? '⏹️' : '🎙️'}</span>
             </button>
 
+            <label htmlFor="chat-input-field" className="sr-only">Type civic issue inquiry</label>
             <input
+              id="chat-input-field"
               type="text"
+              aria-label="Civic grievance query input"
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
               placeholder={
@@ -460,6 +476,7 @@ function ChatPage() {
             <button
               type="submit"
               disabled={loading || !inputMessage.trim()}
+              aria-label="Send civic inquiry message"
               className="btn-neo bg-black hover:bg-zinc-900 text-[#a3ff00] border-2 border-black font-extrabold px-5 py-2.5 text-xs uppercase tracking-wider cursor-pointer disabled:opacity-40"
             >
               Send ➔

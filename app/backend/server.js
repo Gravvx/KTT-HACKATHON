@@ -7,11 +7,66 @@ const morgan = require('morgan');
 const path = require('path');
 const localDb = require('./utils/localDb');
 
+const compression = require('compression');
+const rateLimit = require('express-rate-limit');
+
 const app = express();
 
-// Security and Logging Middleware
-app.use(helmet({ crossOriginResourcePolicy: false }));
-app.use(morgan('dev'));
+// High-Efficiency Gzip/Deflate Response Compression
+app.use(compression({
+  threshold: 1024, // Only compress responses larger than 1KB
+  filter: (req, res) => {
+    if (req.headers['x-no-compression']) return false;
+    return compression.filter(req, res);
+  }
+}));
+
+// Enterprise Security Headers
+app.use(
+  helmet({
+    crossOriginResourcePolicy: false,
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        scriptSrc: ["'self'", "'unsafe-inline'", "https://unpkg.com"],
+        styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com", "https://unpkg.com"],
+        fontSrc: ["'self'", "https://fonts.gstatic.com"],
+        imgSrc: ["'self'", "data:", "blob:", "https://*.tile.openstreetmap.org", "https://unpkg.com"],
+        connectSrc: ["'self'", "https://*.googleapis.com", "https://nominatim.openstreetmap.org"],
+      },
+    },
+    referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
+  })
+);
+
+// DDOS & Brute Force Rate Limiting
+const apiLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 300, // Limit each IP to 300 requests per 15 minutes
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: {
+    status: 429,
+    error: 'Too Many Requests',
+    message: 'Too many requests from this IP, please try again after 15 minutes.',
+  },
+});
+app.use('/api/', apiLimiter);
+
+// Specific stricter limiter for Chat and Issue reporting to prevent spam
+const submissionLimiter = rateLimit({
+  windowMs: 5 * 60 * 1000,
+  max: 60,
+  message: { status: 429, error: 'Rate limit reached for civic submissions/chat. Please wait a moment.' }
+});
+app.use('/api/chat/message', submissionLimiter);
+app.use('/api/civic-issues/report', submissionLimiter);
+
+// Morgan HTTP request logging (disabled in test mode)
+if (process.env.NODE_ENV !== 'test') {
+  app.use(morgan('dev'));
+}
+
 app.use(
   cors({
     origin: (origin, callback) => callback(null, true),

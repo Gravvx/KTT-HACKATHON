@@ -51,8 +51,11 @@ function ApplicationsPage() {
       {/* Search / Filter Bar */}
       <div className="bg-white border-2 border-black p-4 shadow-[4px_4px_0px_#000000] flex flex-col sm:flex-row items-center justify-between gap-4">
         <form onSubmit={handleSearch} className="flex items-center gap-2 w-full sm:w-auto">
+          <label htmlFor="phone-filter-input" className="sr-only">Filter by mobile phone number</label>
           <input
+            id="phone-filter-input"
             type="text"
+            aria-label="Filter applications by registered mobile number"
             value={searchPhone}
             onChange={(e) => setSearchPhone(e.target.value)}
             placeholder="Filter by Mobile Number..."
@@ -60,6 +63,7 @@ function ApplicationsPage() {
           />
           <button
             type="submit"
+            aria-label="Search applications"
             className="btn-neo bg-black text-[#a3ff00] border-2 border-black px-4 py-2 text-xs font-bold uppercase cursor-pointer"
           >
             Search
