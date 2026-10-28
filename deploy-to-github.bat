@@ -5,51 +5,58 @@ echo       CivicConnect - GitHub & Vercel Deployer
 echo ========================================================
 echo.
 
+set "GIT_CMD=git"
 where git >nul 2>nul
 if %ERRORLEVEL% NEQ 0 (
-    echo [ERROR] Git is not installed on this system or not in PATH!
-    echo Please download and install Git from: https://git-scm.com/download/win
-    echo After installing, reopen this script to upload.
-    echo.
-    pause
-    exit /b 1
+    if exist "%USERPROFILE%\mingit\cmd\git.exe" (
+        set "GIT_CMD=%USERPROFILE%\mingit\cmd\git.exe"
+    ) else (
+        echo [ERROR] Git is not found!
+        pause
+        exit /b 1
+    )
 )
 
-echo [1/4] Initializing Git repository...
+echo [1/4] Verifying local repository...
 cd /d "%~dp0"
 if not exist ".git" (
-    git init
-    git branch -M main
+    "%GIT_CMD%" init
+    "%GIT_CMD%" branch -M main
 )
 
 echo.
-echo [2/4] Adding all files to commit...
-git add .
-git commit -m "CivicConnect - AI Civic Grievance & Government Services Platform"
+echo [2/4] Staging and committing files...
+"%GIT_CMD%" add .
+"%GIT_CMD%" commit -m "CivicConnect - AI Civic Grievance & Government Services Platform"
 
 echo.
-echo [3/4] Setting remote GitHub repository...
-set /p REPO_URL="Enter your GitHub repository URL (e.g. https://github.com/Gravvx/CivicConnect.git): "
+echo [3/4] GitHub Repository Setup
+echo Press Enter to use default or paste a custom URL:
+echo Default: https://github.com/Gravvx/CivicConnect.git
+set /p REPO_URL="Repository URL: "
 
 if "%REPO_URL%"=="" (
-    set REPO_URL=https://github.com/Gravvx/CivicConnect.git
+    set "REPO_URL=https://github.com/Gravvx/CivicConnect.git"
 )
 
-git remote remove origin 2>nul
-git remote add origin %REPO_URL%
+"%GIT_CMD%" remote remove origin 2>nul
+"%GIT_CMD%" remote add origin %REPO_URL%
 
 echo.
 echo [4/4] Pushing to GitHub (main branch)...
-git push -u origin main
+echo If a GitHub sign-in prompt appears, click 'Sign in with your browser'.
+"%GIT_CMD%" push -u origin main
 
 echo.
 echo ========================================================
-echo   Uploaded to GitHub successfully!
+echo   Push Complete!
 echo.
 echo   To Deploy on Vercel:
 echo   1. Visit https://vercel.com/new
 echo   2. Import repository: %REPO_URL%
-echo   3. Click "Deploy" (vercel.json handles routing automatically!)
+echo   3. Set Environment Variable in Vercel:
+echo      GEMINI_API_KEY = your_gemini_api_key
+echo   4. Click "Deploy"!
 echo ========================================================
 echo.
 pause
