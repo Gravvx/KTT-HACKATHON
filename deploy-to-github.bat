@@ -1,7 +1,7 @@
 @echo off
-title CivicConnect GitHub & Vercel Uploader
+title CivicConnect - Upload to KTT-HACKATHON
 echo ========================================================
-echo       CivicConnect - GitHub & Vercel Deployer
+echo       CivicConnect - Upload to KTT-HACKATHON
 echo ========================================================
 echo.
 
@@ -17,7 +17,7 @@ if %ERRORLEVEL% NEQ 0 (
     )
 )
 
-echo [1/4] Verifying local repository...
+echo [1/3] Verifying local repository...
 cd /d "%~dp0"
 if not exist ".git" (
     "%GIT_CMD%" init
@@ -25,38 +25,33 @@ if not exist ".git" (
 )
 
 echo.
-echo [2/4] Staging and committing files...
+echo [2/3] Staging and committing all files...
 "%GIT_CMD%" add .
-"%GIT_CMD%" commit -m "CivicConnect - AI Civic Grievance & Government Services Platform"
+"%GIT_CMD%" commit -m "Upload CivicConnect to KTT-HACKATHON"
 
 echo.
-echo [3/4] GitHub Repository Setup
-echo Press Enter to use default or paste a custom URL:
-echo Default: https://github.com/Gravvx/CivicConnect.git
-set /p REPO_URL="Repository URL: "
+echo [3/3] Setting remote repository: https://github.com/Gravvx/KTT-HACKATHON.git
+"%GIT_CMD%" remote remove origin 2>nul
+"%GIT_CMD%" remote add origin https://github.com/Gravvx/KTT-HACKATHON.git
 
-if "%REPO_URL%"=="" (
-    set "REPO_URL=https://github.com/Gravvx/CivicConnect.git"
+echo.
+echo Pushing to GitHub (main branch)...
+echo If a GitHub sign-in window opens, click "Sign in with your browser".
+echo.
+"%GIT_CMD%" push -u origin main --force
+
+if %ERRORLEVEL% EQU 0 (
+    echo.
+    echo ========================================================
+    echo   SUCCESS! All code uploaded to:
+    echo   https://github.com/Gravvx/KTT-HACKATHON
+    echo ========================================================
+) else (
+    echo.
+    echo ========================================================
+    echo   Push failed or requires login.
+    echo ========================================================
 )
 
-"%GIT_CMD%" remote remove origin 2>nul
-"%GIT_CMD%" remote add origin %REPO_URL%
-
-echo.
-echo [4/4] Pushing to GitHub (main branch)...
-echo If a GitHub sign-in prompt appears, click 'Sign in with your browser'.
-"%GIT_CMD%" push -u origin main
-
-echo.
-echo ========================================================
-echo   Push Complete!
-echo.
-echo   To Deploy on Vercel:
-echo   1. Visit https://vercel.com/new
-echo   2. Import repository: %REPO_URL%
-echo   3. Set Environment Variable in Vercel:
-echo      GEMINI_API_KEY = your_gemini_api_key
-echo   4. Click "Deploy"!
-echo ========================================================
 echo.
 pause
